@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+<!--        <item-->
+<!--            app:actionLayout="@layout/menu_bienvenido"-->
+<!--            android:id="@+id/nav_home"-->
+<!--            android:title="" />-->
+        <item
+            android:actionLayout="@layout/menu_menu"
+            android:id="@+id/invisible"
+            android:title=""
+            />
+        <item
+            app:actionLayout="@layout/menu_registro_gasto"
+            android:id="@+id/nav_registro_gasto"
+            android:title=""
+        />
+        <item
+            app:actionLayout="@layout/menu_gastos_mensuales"
+            android:id="@+id/nav_slideshow"
+            android:title=""/>
+        <item
+            app:actionLayout="@layout/menu_enero"
+            android:id="@+id/nav_enero"
+            android:title=""/>
+        <item
+            app:actionLayout="@layout/menu_febrero"
+            android:id="@+id/nav_febrero"
+            android:title=""/>
+        <item
+            app:actionLayout="@layout/menu_marzo"
+            android:id="@+id/nav_marzo"
+            android:title=""/>
+        <item
+            app:actionLayout="@layout/menu_abril"
+            android:id="@+id/nav_abril"
+            android:title=""/>
+        <item
+            app:actionLayout="@layout/menu_mayo"
+            android:id="@+id/nav_mayo"
+            android:title=""/>
+
+        <item
+            app:actionLayout="@layout/menu_registrar_ingreso"
+            android:id="@+id/nav_gallery"
+            android:title="" />
+        <item
+            android:id="@+id/nav_cuenta"
+            android:title="@string/titulo_cuenta" />
+        <!--            android:icon="@drawable/ic_account_circle_black_24dp"-->
+
+
+        <item
+            android:id="@+id/nav_configuracion"
+            android:title="@string/titulo_config" />
+        <!--            android:icon="@drawable/ic_settings_black_24dp"-->
+
+
+
+    </group>
+</menu>

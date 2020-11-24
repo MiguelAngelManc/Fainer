@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Fainer</string>
+    <string name="mes">Mes</string>
+    <string name="gastos_mes">Estos fueron tus gastos de este mes</string>
+    <string name="titulo_cuenta">CUENTA</string>
+    <string name="titulo_config">CONFIGURACIÓN</string>
+    <string name="registro_ingresos">REGISTRO DE INGRESOS</string>
+    <string name="registro_gasto">REGISTRO DE GASTO</string>
+    <string name="gasto_mensual">GASTO MENSUAL</string>
+    <string name="prompt_email">Correo Electrónico</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar sesión</string>
+    <string name="action_sign_in_short">Iniciar sesión</string>
+    <string name="welcome">"Bienvenido!"</string>
+    <string name="invalid_username">Nombre de usuario invalido</string>
+    <string name="invalid_password">La constraseña debe de ser mayor a 5 carácteres</string>
+    <string name="login_failed">"Error al iniciar sesión"</string>
+    <string name="title_activity_menu_lateral">menu_lateral</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+<!--    Registro-->
+    <string name="nombreRegistro">Nombre</string>
+    <string name="correoRegistro">Correo Electrónico</string>
+    <string name="passRegistro">Contraseña</string>
+    <string name="iniciarSesion">Iniciar sesión</string>
+    <string name="registrarte">Registrarte</string>
+
+<!--    Home-->
+    <string name="primerRegistro">Empieza con tu primer registro</string>
+
+<!--    Cuanto traes-->
+    <string name="registrarIngreso">Registrar ingreso</string>
+
+    <!-- Otros-->
+    <string name="menu_home">BIENVENIDO</string>
+    <string name="menu_registro_gasto">REGISTRO DE GASTO</string>
+    <string name="menu_gallery">REGISTRO DE INGRESO</string>
+    <string name="menu_enero">Enero 2020</string>
+    <string name="menu_febrero">Febrero 2020</string>
+    <string name="menu_marzo">Marzo 2020</string>
+    <string name="menu_abril">Abril 2020</string>
+    <string name="menu_mayo">Mayo 2020</string>
+    <string name="guardar_mes">Guardar</string>
+    <string name="menu_slideshow">GASTO MENSUAL</string>
+
+    <string name="cantidad_a_registrar"> Cantidad a registrar</string>
+    <string name="cuanto_te_queda"> Cuanto te queda</string>
+    <string name="cuanto_traes">Cuanto traes.</string>
+    <string name="mes_abril">Mes de Abril</string>
+    <string name="mes_mayo">Mes de Mayo</string>
+    <string name="semana1">Semana 01</string>
+    <string name="simbolo_dinero">$</string>
+    <string name="bienvenida">Bienvenido</string>
+    <string name="agregar">Agregar</string>
+    <string name="lista_categorias">Tus categorías.</string>
+    <string name="txt_placeholder">Texto Dinámico</string>
+</resources>

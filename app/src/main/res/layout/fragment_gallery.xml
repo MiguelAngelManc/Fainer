@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    tools:context=".ui.login.Inicio_Sesion">
+
+    <EditText
+        android:id="@+id/edit_Cuanto_Queda"
+        android:layout_width="@dimen/widthtext"
+        android:layout_height="@dimen/heighttextcuanto"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <EditText
+        android:id="@+id/edit_Cantidad_Registrar"
+        android:layout_width="@dimen/widthtext"
+        android:layout_height="@dimen/heighttextcuanto"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/edit_Cuanto_Queda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.706" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/cantidad_a_registrar"
+        android:textColor="@color/negro"
+        android:textSize="@dimen/txtSizeCuanto"
+        app:layout_constraintBottom_toTopOf="@+id/edit_Cuanto_Queda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_Cantidad_Registrar"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <TextView
+        android:id="@+id/txtView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cuanto_te_queda"
+        android:textColor="@color/negro"
+        android:textSize="@dimen/txtSizeCuanto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_Cuanto_Queda"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnCuantoTraes"
+        android:layout_width="@dimen/widthregistraringreso"
+        android:layout_height="@dimen/heightregistraringreso"
+        android:layout_marginHorizontal="@dimen/margintexthorizontal"
+        android:background="@drawable/registraringresos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtView4"
+        app:layout_constraintVertical_bias="0.465" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:text="@string/cuanto_traes"
+        android:textColor="@color/negro"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/edit_Cantidad_Registrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.212" />
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="415dp"-->
+    <!--        android:layout_height="89dp"-->
+    <!--        android:background="@color/colorAccent"-->
+    <!--        android:orientation="vertical"-->
+    <!--        tools:layout_editor_absoluteX="-5dp"-->
+    <!--        tools:layout_editor_absoluteY="1dp">-->
+
+    <!--    </LinearLayout>-->
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="236dp"-->
+    <!--        android:layout_height="39dp"-->
+    <!--        android:background="@color/colorAccent"-->
+    <!--        android:orientation="vertical"-->
+    <!--        tools:layout_editor_absoluteX="176dp"-->
+    <!--        tools:layout_editor_absoluteY="87dp">-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/textView6"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="@string/registro_ingresos"-->
+    <!--            android:textColor="#FFFFFF"-->
+    <!--            android:textSize="18sp" />-->
+    <!--    </LinearLayout>-->
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="180dp"-->
+    <!--        android:layout_height="59dp"-->
+    <!--        android:background="@color/colorAccent"-->
+    <!--        android:orientation="vertical"-->
+    <!--        tools:layout_editor_absoluteX="-4dp"-->
+    <!--        tools:layout_editor_absoluteY="67dp">-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/imageView3"-->
+    <!--            android:layout_width="67dp"-->
+    <!--            android:layout_height="58dp"-->
+    <!--            android:background="@color/colorAccent"-->
+    <!--            android:clickable="true"-->
+    <!--            app:srcCompat="@android:drawable/ic_menu_sort_by_size" />-->
+    <!--    </LinearLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

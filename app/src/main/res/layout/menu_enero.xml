@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+
+
+    <TextView
+        android:background="@drawable/menumenuszulin"
+        android:id="@+id/registro_Gasto"
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altura_menu_btn_mes"
+        android:layout_marginRight="@dimen/margin_mes"
+        android:gravity="start"
+        android:text="@string/menu_enero"
+        android:textColor="@color/blanco"
+        android:textSize="@dimen/menu_txt_mes" 
+        android:layout_marginEnd="@dimen/margin_mes"/>
+
+
+
+</LinearLayout>

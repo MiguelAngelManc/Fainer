@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+
+    android:orientation="vertical"
+    android:id="@+id/fondoExpandida"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/linealayoutcategoriaexpandida"
+        android:background="@drawable/boton_01"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/heightlista"
+        >
+
+        <TextView
+            android:id="@+id/txtNombreCategoriaAbierta"
+            android:layout_width="0dp"
+            android:fontFamily="@font/fonts"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="fill"
+            android:text="@string/agregar"
+            android:layout_marginLeft="@dimen/marginlista"
+            android:layout_marginStart="@dimen/marginlista"
+            android:textColor="@color/blanco"
+            android:textSize="@dimen/categoria_txt"
+            app:autoSizeTextType="none" />
+
+        <ImageView
+            android:id="@+id/btnCambiarCategoria"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight=".5" />
+    </LinearLayout>
+
+    <ListView
+        android:visibility="gone"
+        android:id="@+id/listaExpandida"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>

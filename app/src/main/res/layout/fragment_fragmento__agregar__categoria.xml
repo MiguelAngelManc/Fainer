@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/txtNombreCategoriaCerrada"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="fill"
+        android:text="@string/agregar"
+        android:textColor="@color/blanco"
+        android:textSize="@dimen/categoria_txt"
+        app:autoSizeTextType="none" />
+
+    <ImageView
+        android:id="@+id/btnAbrirCategoria"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight=".5"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@android:drawable/ic_input_add"
+        tools:srcCompat="@android:drawable/ic_menu_add" />
+
+</LinearLayout>
